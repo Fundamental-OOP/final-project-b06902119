@@ -1,0 +1,5 @@
+Name,width,height,imgPath,gridx,gridy,gridwidth,gridheight
+Player 1,50,100,blue.png,2,2,2,2
+Player 2,50,100,yellow.png,7,2,2,2
+Player 3,50,100,green.png,2,7,2,2
+Player 4,50,100,red.png,7,7,2,2
