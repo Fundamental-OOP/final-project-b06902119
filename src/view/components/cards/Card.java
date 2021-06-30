@@ -31,10 +31,10 @@ public class Card extends JButton implements ActionListener {
         JLabel label = new JLabel(name, CENTER);
         label.setFont(GameView.font);
 
-        setPreferredSize(new Dimension(w, h));
-        setOpaque(true);
         color = new Color(R,G,B);
         setBackground(color);
+        setOpaque(true);
+        setPreferredSize(new Dimension(w, h));
 
         setIcon(new ImageIcon(new ImageIcon(path).getImage().getScaledInstance(50, 50, java.awt.Image.SCALE_DEFAULT)));
         add(label);

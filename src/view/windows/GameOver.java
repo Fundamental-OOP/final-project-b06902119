@@ -34,11 +34,10 @@ public class GameOver extends JPanel {
         logo.setLocation(GameView.screenSize.width / 5 * 2, GameView.screenSize.height / 15 * 2);
         layeredPane.add(logo, 0);
 
-
         gameOver.setLocation(GameView.screenSize.width / 5 * 2, GameView.screenSize.height / 15 * 6);
         layeredPane.add(gameOver, 0);
 
-        //config next button
+        //config close button
         close.setBounds(GameView.screenSize.width / 3, GameView.screenSize.height / 3 * 2, GameView.screenSize.width / 3, GameView.screenSize.height / 15);
         close.setBackground(ColorTool.adjustAlpha(Color.LIGHT_GRAY, 75));
         close.setOpaque(true);

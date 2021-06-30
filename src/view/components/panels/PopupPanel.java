@@ -40,7 +40,7 @@ public class PopupPanel extends JPanel {
     public void randomReaction(GameController controller) {
         Random r = new Random();
 
-        controller.doReaction(reactionList.get(r.nextInt(reactionList.size())));
         setVisible(false);
+        controller.doReaction(reactionList.get(r.nextInt(reactionList.size())));
     }
 }
